@@ -24,9 +24,9 @@ nav {
   display: flex;
   background: linear-gradient(#999, #333);
   width: 50%;
-  height: 50px;
+  height: 46px;
   align-items: center;
-  margin: 2% auto 5%;
+  margin: 2% auto 4%;
   border-radius: 7px;
 }
 
@@ -34,7 +34,7 @@ nav {
   border-right: 1px solid black;
   flex: 1;
   text-align: center;
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 footer a,
@@ -89,13 +89,13 @@ footer ul li a {
 
 .header-text h1 {
   color: white;
-  font-size: 80px;
+  font-size: 60px;
   padding: 50px 0;
 }
 
 .header-text p {
   color: white;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 100;
   line-height: 60px;
 }
