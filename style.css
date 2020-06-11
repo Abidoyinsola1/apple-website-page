@@ -23,7 +23,7 @@ header {
 nav {
   display: flex;
   background: linear-gradient(#999, #333);
-  width: 70%;
+  width: 75%;
   height: 42px;
   align-items: center;
   margin: 5% auto 3%;
@@ -65,12 +65,13 @@ footer ul li a {
 
 .search {
   display: flex;
+  position: relative;
 }
 
 .search i {
-  position: relative;
-  top: 5px;
-  left: 18px;
+  position: absolute;
+  top: 12px;
+  left: 44px;
   color: white;
 }
 
@@ -78,7 +79,7 @@ footer ul li a {
   border: 0.5px solid #333;
   background-color: gray;
   border-radius: 5px;
-  margin-right: 13px;
+  /* position: relative; */
 }
 
 .header-text {
