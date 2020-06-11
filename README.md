@@ -11,7 +11,7 @@ This is a clone of Apple Website Page, a part of the technical curriculum projec
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Abidoyinsola1/apple-website-page/233e49833b82b86a1c3ceee0717b55f4116fd36f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Abidoyinsola1/apple-website-page/279c5956c952c13e794641a0dfd78e5d9c8779da/index.html)
 
 ## Author
 
