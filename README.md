@@ -1,8 +1,8 @@
-## New York Times Article page
+## Apple Website Page
 
-This is a clone of New York Times Article Page, a part of the technical curriculum projects in Microverse.
+This is a clone of Apple Website Page, a part of the technical curriculum projects in Microverse.
 
-![screenshot](./screenshot.png)
+![screenshot](./asset/image/Screenshot.JPG)
 
 ## Built With
 
@@ -11,7 +11,7 @@ This is a clone of New York Times Article Page, a part of the technical curricul
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/somoye123/New-York-Times-Article-Page/a59912741c5ee8986a1a8c27d296678f520e924a/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Abidoyinsola1/apple-website-page/233e49833b82b86a1c3ceee0717b55f4116fd36f/index.html)
 
 ## Author
 
