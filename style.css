@@ -2,84 +2,39 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
-    Verdana, sans-serif;
-  overflow-x: hidden;
+  font-family:
+    "Lucida Grande",
+    "Lucida Sans Unicode",
+    Helvetica,
+    Arial,
+    Verdana,
+    sans-serif;
+  font-size: 12px/18px;
 }
 
 header {
   height: 74vh;
+  border: 0.5px solid white;
   background-image: url("./asset/image/apple-background.jpg");
   background-size: 100%;
   background-position: 50% 98%;
 }
 
 nav {
-  margin: 1.5% auto 9%;
-  background: #333 linear-gradient(#999, #333);
-  border: 0.1px solid #333;
-  border-radius: 5px;
-  width: 65%;
-  height: 7%;
-}
-
-nav ul {
   display: flex;
-  list-style: none;
+  background: linear-gradient(#999, #333);
+  width: 50%;
+  height: 50px;
+  align-items: center;
+  margin: 2% auto 5%;
+  border-radius: 7px;
 }
 
-nav ul li {
+.nav-items {
+  border-right: 1px solid black;
   flex: 1;
-}
-
-nav ul li:hover {
-  background-color: #333;
-  cursor: pointer;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.747);
-}
-
-.header-text {
-  margin: 0 auto;
   text-align: center;
-  width: 60%;
-}
-
-.header-text h1 {
-  color: white;
-}
-
-.header-text p {
-  color: white;
-}
-
-.header-text a {
-  color: white;
-  text-decoration: none;
-}
-
-.header-text a:hover {
-  border-bottom: 1px solid #fff;
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  column-gap: 3px;
-  margin-top: 3px;
-}
-
-footer {
-  width: 69%;
-  margin: 20px auto;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
+  padding: 12px 0;
 }
 
 footer a,
@@ -97,6 +52,85 @@ footer a {
   color: #08c;
 }
 
+footer ul li a {
+  border-right: 0.5px solid grey;
+  padding: 0 5px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+
+.search {
+  display: flex;
+}
+
+.search i {
+  position: relative;
+  top: 5px;
+  left: 18px;
+  color: white;
+}
+
+.search input {
+  border: 0.5px solid #333;
+  background-color: gray;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.header-text {
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+}
+
+.header-text h1 {
+  color: white;
+  font-size: 80px;
+  padding: 50px 0;
+}
+
+.header-text p {
+  color: white;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 60px;
+}
+
+.header-text a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.header-text a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3px;
+  margin-top: 3px;
+}
+
+main a img {
+  width: 100%;
+}
+
+footer {
+  width: 69%;
+  margin: 20px auto;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer ul {
   display: flex;
 }
@@ -105,18 +139,15 @@ footer ul li {
   list-style-type: none;
 }
 
-footer ul li a {
-  border-right: 0.5px solid grey;
-  padding: 0 5px;
-}
-
 .no-border {
   border: none;
 }
+
 .terms {
   border-right: 0.5px solid grey;
   margin: 0 5px 0 0;
 }
+
 .copyright {
   margin-top: 8px;
 }
