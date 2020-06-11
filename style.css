@@ -23,7 +23,7 @@ header {
 nav {
   display: flex;
   background: linear-gradient(#999, #333);
-  width: 65%;
+  width: 70%;
   height: 42px;
   align-items: center;
   margin: 5% auto 3%;
