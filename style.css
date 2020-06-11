@@ -1,0 +1,8 @@
+header {
+    background-image: url("./asset/image/apple-background.jpg");
+    height: 80vh;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    display: block;
+}
