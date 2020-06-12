@@ -64,21 +64,23 @@ footer ul li a {
 }
 
 .search {
-  display: flex;
-  position: relative;
+  border-right: 0;
+  width: 120px;
+  padding: 0.5% 1%;
 }
 
 .search i {
   position: absolute;
-  top: 12px;
-  left: 44px;
+  padding: 5px 5px;
   color: white;
 }
 
 .search input {
-  border: 0.5px solid #333;
-  background-color: gray;
-  border-radius: 5px;
+  width: 100%;
+  border: 0.1px solid #333;
+  height: 23px;
+  border-radius: 10px;
+  background-color: transparent;
 }
 
 .header-text {
@@ -88,6 +90,7 @@ footer ul li a {
 }
 
 .header-text h1 {
+  font-family: 'Fira Sans', sans-serif;
   color: white;
   font-size: 60px;
   font-weight: lighter;
@@ -95,6 +98,7 @@ footer ul li a {
 }
 
 .header-text p {
+  font-family: 'Fira Sans', sans-serif;
   color: white;
   font-size: 36px;
   font-weight: 100;
@@ -102,6 +106,7 @@ footer ul li a {
 }
 
 .header-text a {
+  font-family: 'Fira Sans', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 20px;
