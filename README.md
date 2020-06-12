@@ -2,7 +2,7 @@
 
 This is a clone of Apple Website Page, a part of the technical curriculum projects in Microverse.
 
-![screenshot](./asset/image/Screenshot.JPG)
+![screenshot](./screenshot.JPG)
 
 ## Built With
 
@@ -11,7 +11,8 @@ This is a clone of Apple Website Page, a part of the technical curriculum projec
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Abidoyinsola1/apple-website-page/279c5956c952c13e794641a0dfd78e5d9c8779da/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Abidoyinsola1/apple-website-page/b09bc29aa8eb9cc1fd6cbc91c9b15e03ee02154a/index.html
+)
 
 ## Author
 
